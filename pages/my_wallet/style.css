@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+
+header {
+  height: 70px;
+  background: #F0F0F0;
+  align-items: center;
+  text-align: center;
+  padding-inline: 264px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  gap: 21px;
+}
+
+.google_link {
+  display: flex;
+  gap: 19px;
+}
+
+img {
+  height: 18px;
+}
+
+header a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
+}
+
+header a:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 11px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.google {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #0047FF;
+  padding-bottom: 11px 0 60px;
+}
+
+.wallet {
+  width: 282px;
+  height: 160px;
+  top: 330px;
+  left: 266px;
+  border-radius: 15px;
+  background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+
+.wallet:nth-child(2) {
+  background: linear-gradient(84.37deg, #da8068 2.27%, #ff0000 92.26%);
+}
+
+.wallet:nth-child(3) {
+  background: linear-gradient(135deg, #00b09b 2.27%, #36fa05 92.26%);
+}
+
+.wallet:nth-child(4) {
+  background: linear-gradient(135deg, #886e84 2.27%, #387fcc 92.26%);
+}
+
+.wallet:nth-child(5) {
+  background: linear-gradient(135deg, #00fff2 2.27%, #0011ff 92.26%);
+}
+
+.wallet:nth-child(6) {
+  background: linear-gradient(135deg, #e73b10 2.27%, #f1dd29 92.26%);
+}
+
+.wallet:nth-child(7) {
+  background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
+}
+
+.wallet h2 {
+  padding-top: 19px;
+  padding-left: 23px;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+
+.wallet p {
+  padding-top: 78px;
+  padding-left: 23px;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+.my-wallets {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+button {
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  background: #0047FF;
+  border: none;
+  margin-top: 44px;
+  color: white;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
